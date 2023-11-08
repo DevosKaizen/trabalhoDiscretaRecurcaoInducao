@@ -1,0 +1,116 @@
+Respostas para o trabalho por ANDREWDEVOS 72409
+-----------------------------------------------------------------------------------
+
+RESPOSTA DA QUESTAO 1: 
+
+Passo base (n=1): A indução matemática começa com o passo base. Neste caso, vamos verificar se a fórmula é verdadeira para n = 1. Substituindo n por 1 na fórmula, temos:
+
+Lado esquerdo (LE): 1 Lado direito (LD): 1(3*1 - 1)/2 = 1
+
+Como LE = LD, a fórmula é verdadeira para n = 1.
+
+Passo de indução: Agora, vamos assumir que a fórmula é verdadeira para algum n = k. Ou seja, assumimos que 1 + 4 + 7 + … + (3k - 2) = k(3k - 1)/2 é verdadeiro.
+
+O próximo passo é provar que a fórmula é verdadeira para n = k + 1. Se conseguirmos provar isso, então podemos dizer que a fórmula é verdadeira para todos os n ≥ 1.
+
+Então, queremos provar que 1 + 4 + 7 + … + (3k - 2) + (3(k + 1) - 2) = (k + 1)(3(k + 1) - 1)/2.
+
+Podemos substituir a suposição de indução na equação acima, o que nos dá:
+
+k(3k - 1)/2 + (3(k + 1) - 2) = (k + 1)(3(k + 1) - 1)/2.
+
+Simplificando ambos os lados, obtemos:
+
+(3k^2 + 3k)/2 + 3k + 1 = (3k^2 + 6k + 2)/2.
+
+Como os dois lados são iguais, a afirmação é verdadeira para n = k + 1, dado que é verdadeira para n = k.
+
+
+
+
+---------------------------------------------------------------------------------------------
+
+RESPOSTA DA QUESTAO 2:
+
+Passo base (n=1): Para n = 1, o lado esquerdo da equação é 6^1 - 1 = 5, que é divisível por 5. Portanto, a afirmação é verdadeira para n = 1.
+
+Passo de indução: Agora, assumimos que a afirmação é verdadeira para algum n = k, ou seja, 6^k - 1 é divisível por 5.
+
+Precisamos provar que a afirmação é verdadeira para n = k + 1.
+
+Então, 6^(k+1) - 1 = 6 * 6^k - 1 = 5 * 6^k + 6^k - 1.
+
+De acordo com a suposição de indução, sabemos que 6^k - 1 é divisível por 5. Além disso, 5 * 6^k é obviamente divisível por 5. Portanto, a soma deles, 5 * 6^k + 6^k - 1, também é divisível por 5.
+
+Como a afirmação é verdadeira para n = k + 1, dado que é verdadeira para n = k, a afirmação é verdadeira para todos os n ≥ 1 por indução matemática. Acho que isso conclui a prova professora.
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------
+
+RESPOSTA DA QUESTAO 3:
+
+Passo base (n=1): Para n = 1, o lado esquerdo da equação é 1^3 + 2*1 = 3, que é divisível por 3. Portanto, a afirmação é verdadeira para n = 1.
+
+Passo de indução: Agora, assumimos que a afirmação é verdadeira para algum n = k, ou seja, k^3 + 2k é divisível por 3.
+
+Precisamos provar que a afirmação é verdadeira para n = k + 1.
+
+Então, (k+1)^3 + 2(k+1) = k^3 + 3k^2 + 3k + 1 + 2k + 2 = (k^3 + 2k) + 3k^2 + 3k + 3.
+
+De acordo com a suposição de indução, sabemos que k^3 + 2k é divisível por 3. Além disso, 3k^2 + 3k + 3 é obviamente divisível por 3. Portanto, a soma deles, (k^3 + 2k) + 3k^2 + 3k + 3, também é divisível por 3.
+
+Como a afirmação é verdadeira para n = k + 1, dado que é verdadeira para n = k, a afirmação é verdadeira para todos os n ≥ 1 por indução matemática.
+
+
+
+
+-------------------------------------------------------------------------------------------
+
+
+RESPOSTA DA QUESTAO 4:
+
+Passo base (n=7): Para n = 7, o lado esquerdo da equação é 7! = 5040 e o lado direito é 3^7 = 2187. Como 5040 > 2187, a afirmação é verdadeira para n = 7.
+
+Passo de indução: Agora, assumimos que a afirmação é verdadeira para algum n = k, ou seja, k! > 3^k.
+
+Precisamos agora provar que a afirmação é verdadeira para n = k + 1.
+
+Então, (k+1)! = (k+1)k! e 3^(k+1) = 3*3^k.
+
+Como k! > 3^k (pela suposição de indução) e (k+1) > 3 (como k ≥ 7), temos que (k+1)k! > 3*3^k.
+
+Portanto, a afirmação é verdadeira para n = k + 1, dado que é verdadeira para n = k.
+
+Assim, por indução matemática profa, a afirmação é verdadeira para todos os n ≥ 7.
+
+
+------------------------------------------------------------------------------------------
+
+
+RESPOSTA DA QUESTAO 7:
+
+Passo base (n=1): Para n = 1, o lado esquerdo da equação é 2 e o lado direito é 1(1 + 1) = 2. Portanto, a afirmação é verdadeira para n = 1.
+
+Passo de indução: Agora, assumimos que a afirmação é verdadeira para algum n = k, ou seja, 2 + 4 + 6 + … + 2k = k(k + 1).
+
+Precisamos provar que a afirmação é verdadeira para n = k + 1.
+
+Então, 2 + 4 + 6 + … + 2k + 2(k + 1) = (k + 1)((k + 1) + 1).
+
+Substituindo a suposição de indução na equação acima, obtemos:
+
+k(k + 1) + 2(k + 1) = (k + 1)(k + 2).
+
+Simplificando, obtemos:
+
+k^2 + k + 2k + 2 = k^2 + 3k + 2.
+
+Como os dois lados são iguais, a afirmação é verdadeira para n = k + 1, dado que é verdadeira para n = k.
+
+Portanto, por indução matemática, a afirmação é verdadeira para todos os n ≥ 1.
+
+
