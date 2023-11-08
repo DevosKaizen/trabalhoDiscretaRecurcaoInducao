@@ -114,3 +114,8 @@ Como os dois lados são iguais, a afirmação é verdadeira para n = k + 1, dado
 Portanto, por indução matemática, a afirmação é verdadeira para todos os n ≥ 1.
 
 
+
+
+
+
+FICAMOS POR AQUI

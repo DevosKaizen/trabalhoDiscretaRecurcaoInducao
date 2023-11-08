@@ -113,7 +113,7 @@ func menu(arr []int) int {
 			fmt.Println("-------------------")
 			return opcao
 		}
-	}
+	} 
 
 }
 
